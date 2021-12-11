@@ -21,3 +21,43 @@ curso={
 'dificultad':'dificil',
 }
 print(curso['dificultad'])
+
+personas = [{
+    'nombre': 'Eduardo',
+    'nacionalidad': 'peruano',
+    'hobbies':[
+        {
+            'nombre': 'Volar drones',
+            'experiencia': '2 años'
+        },{
+            'nombre':'Programar',
+            'experiencia': '1 mes'
+        }
+    ]
+},{
+    'nombre': 'Juliana',
+    'nacionalidad': 'colombiana',
+    'hobbies':[
+        {
+            'nombre': 'Montar bici',
+            'experiencia': '4 años'
+        },{
+            'nombre':'Bases de datos',
+            'experiencia': '8 mes'
+        }
+    ]
+}]
+
+
+# nacionalidad de la primera persona
+print(personas[0]['nacionalidad'])
+# los hobbies de la segunda persona
+print(personas[1]['hobbies'])
+
+# la experiencia del segundo hobbie de la primera persona
+print(personas[0]['hobbies'][1]['experiencia'])
+
+
+# forma de eliminar variables o su contenido si es que es una lista, diccionario u otro 
+del personas
+# print(personas)
