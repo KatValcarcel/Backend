@@ -1,1 +1,5 @@
+entorno_flask/*
 entorno_flask
+entorno_flask/
+entorno_django
+.DS_STORE
