@@ -21,7 +21,8 @@
     "crypto-js": "^4.1.1",
     "express": "^4.17.3",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^6.2.4"
+    "mongoose": "^6.2.4",
+    "validator": "^13.7.0"
   },
   "devDependencies": {
     "dotenv-cli": "^5.0.0",
